@@ -45,7 +45,6 @@ int main()
     auto x = b.begin();
     auto y = b.end();
     b.reserve(20);
-    b.shrink_to_fit();
     Vector m(array, array+5);
     
     b.insert(b.begin(), c.begin()+1, c.begin()+3);
